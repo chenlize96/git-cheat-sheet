@@ -1,4 +1,4 @@
-# git-cheat-sheet
+# Git Cheat Sheet
 
 <h2 id="table-of-contents">Contents</h2>
   <ol>
