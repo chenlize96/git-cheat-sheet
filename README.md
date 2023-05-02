@@ -4,6 +4,7 @@
   <ol>
     <li><a href="#1"> Add Existing Project To Git Repo </a></li>
     <li><a href="#2"> Roll Back </a></li>
+    <li><a href="#3"> Remove Files from Repo </a></li>
     <li><a href="#99"> Continue </a></li>
     <!--<li><a href="#handbook"> User handbook</a></li> -->
   </ol>
@@ -26,7 +27,14 @@ git reset --hard <SHA>
 git push --set-upstream origin master --force
 ```
 
+<h2 id="3"> 3. Remove Files from Repo</h2>
 
-
+```
+Remove the .idea folder from the git tree
+git rm --cached -r .idea
+git add .
+git commit -m "Remove Files"
+git push
+```
 
 <h2 id="99"> 99. Continue</h2>
